@@ -1,0 +1,21 @@
+# AI/editor local configuration
+backend/.agents/
+backend/.claude/
+backend/.windsurf/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Uploads
+backend/uploads/
+
+# Generated Prisma client
+backend/src/generated/
+
+# Logs
+*.log
